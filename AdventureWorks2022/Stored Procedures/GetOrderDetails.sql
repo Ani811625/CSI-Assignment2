@@ -4,7 +4,7 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
-    -- Check if the OrderID exists in Order Details
+   
     IF NOT EXISTS (
         SELECT 1 FROM [Order Details] WHERE OrderID = @OrderID
     )
@@ -13,7 +13,7 @@ BEGIN
         RETURN 1;
     END
 
-    -- If it exists, return all order details
+    
     SELECT *
     FROM [Order Details]
     WHERE OrderID = @OrderID;
