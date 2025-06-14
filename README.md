@@ -5,31 +5,13 @@
 This repository contains the complete solution to the **Level B SQL Task**, assigned as part of the **Week 2 deliverables** during the **Summer Internship Program at Celebal Technologies**.
 
 ---
+## 🛠️ Technologies & Tools Used
 
-## 📁 Repository Structure
+- **SQL Server 2022 Express / Developer Edition**
+- **SQL Server Management Studio (SSMS)**
+- **AdventureWorks2022 OLTP Sample Database**
 
-```plaintext
-📂 AdventureWorks2022/
-│      ├── 📂 Functions/
-│      │        ├── FormatDate_MMDDYYYY.sql
-│      │        └── FormatDate_YYYYMMDD.sql
-│      ├── 📂 Stored procedures/
-│      │        ├── DeleteOrderDetails.sql
-│      │        ├── GetOrderDetails.sql
-│      │        ├── InsertOrderDetails.sql
-│      │        └── UpdateOrderDetails.sql
-│      ├── 📂 Triggers/
-│      │        ├── trg_CheckStockBeforeInsert.sql
-│      │        └── trg_InsteadOfDeleteSalesOrder.sql
-│      └── 📂 Views/
-│               ├── MyProducts.sql
-│               ├── vwCustomerOrders.sql
-│               └── vwCustomerOrders_Yesterday.sql
-├── Level B Task.pdf
-│
-└── README.md
-
-
+> ✔️ All queries are designed and tested using the default schema structure of the **AdventureWorks2022** database available from Microsoft's official GitHub repository.
 
 ---
 
@@ -69,10 +51,27 @@ USE AdventureWorks2022;
 GO
 -- Run the script AdventureWorks_LevelB_Task.sql
 
-## 🛠️ Technologies & Tools Used
+---
 
-- **SQL Server 2022 Express / Developer Edition**
-- **SQL Server Management Studio (SSMS)**
-- **AdventureWorks2022 OLTP Sample Database**
+## 📁 Repository Structure
 
-> ✔️ All queries are designed and tested using the default schema structure of the **AdventureWorks2022** database available from Microsoft's official GitHub repository.
+```plaintext
+📂 AdventureWorks2022/
+│      ├── 📂 Functions/
+│      │        ├── FormatDate_MMDDYYYY.sql
+│      │        └── FormatDate_YYYYMMDD.sql
+│      ├── 📂 Stored procedures/
+│      │        ├── DeleteOrderDetails.sql
+│      │        ├── GetOrderDetails.sql
+│      │        ├── InsertOrderDetails.sql
+│      │        └── UpdateOrderDetails.sql
+│      ├── 📂 Triggers/
+│      │        ├── trg_CheckStockBeforeInsert.sql
+│      │        └── trg_InsteadOfDeleteSalesOrder.sql
+│      └── 📂 Views/
+│               ├── MyProducts.sql
+│               ├── vwCustomerOrders.sql
+│               └── vwCustomerOrders_Yesterday.sql
+├── Level B Task.pdf
+│
+└── README.md
