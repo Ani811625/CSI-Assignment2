@@ -5,18 +5,7 @@
 This repository contains the complete solution to the **Level B SQL Task**, assigned as part of the **Week 2 deliverables** during the **Summer Internship Program at Celebal Technologies**.
 
 ---
-## 🛠️ Technologies & Tools Used
-
-- **SQL Server 2022 Express / Developer Edition**
-- **SQL Server Management Studio (SSMS)**
-- **AdventureWorks2022 OLTP Sample Database**
-
-> ✔️ All queries are designed and tested using the default schema structure of the **AdventureWorks2022** database available from Microsoft's official GitHub repository.
-
----
-
 ## ✅ Overview of Implemented SQL Components
-
 ### 🔧 Stored Procedures
 - `InsertOrderDetails`: Validates stock and inserts order lines.
 - `UpdateOrderDetails`: Updates fields with NULL-safety and adjusts inventory.
@@ -36,6 +25,14 @@ This repository contains the complete solution to the **Level B SQL Task**, assi
 - `trg_InsteadOfDeleteSalesOrder`: Deletes dependent order details before order.
 - `trg_CheckStockBeforeInsert`: Prevents insert when stock is insufficient and updates inventory on success.
 
+## 🛠️ Technologies & Tools Used
+
+- **SQL Server 2022 Express / Developer Edition**
+- **SQL Server Management Studio (SSMS)**
+- **AdventureWorks2022 OLTP Sample Database**
+
+> ✔️ All queries are designed and tested using the default schema structure of the **AdventureWorks2022** database available from Microsoft's official GitHub repository.
+
 ---
 
 ## 💾 How to Use This Project
@@ -46,16 +43,22 @@ This repository contains the complete solution to the **Level B SQL Task**, assi
 - `AdventureWorks2022` OLTP database restored on your SQL Server
 
 ### 2. Execution Steps
-```sql
+
 USE AdventureWorks2022;
 GO
 -- Run the script AdventureWorks_LevelB_Task.sql
+---
+## 🛠️ Technologies & Tools Used
+
+- **SQL Server 2022 Express / Developer Edition**
+- **SQL Server Management Studio (SSMS)**
+- **AdventureWorks2022 OLTP Sample Database**
+
+> ✔️ All queries are designed and tested using the default schema structure of the **AdventureWorks2022** database available from Microsoft's official GitHub repository.
 
 ---
 
 ## 📁 Repository Structure
-
-```plaintext
 📂 AdventureWorks2022/
 │      ├── 📂 Functions/
 │      │        ├── FormatDate_MMDDYYYY.sql
