@@ -43,9 +43,6 @@ This repository contains the complete solution to the **Level B SQL Task**, assi
 - `AdventureWorks2022` OLTP database restored on your SQL Server
 
 ### 2. Execution Steps
-
-USE AdventureWorks2022;
-GO
 -- Run the script AdventureWorks_LevelB_Task.sql
 ---
 ## 🛠️ Technologies & Tools Used
