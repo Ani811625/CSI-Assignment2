@@ -27,7 +27,7 @@ This repository contains the complete solution to the **Level A SQL Task**, assi
 │               └── vwCustomerOrders_Yesterday.sql
 ├── Level B Task.pdf
 │
-└──    README.md
+└── README.md
 
 
 
