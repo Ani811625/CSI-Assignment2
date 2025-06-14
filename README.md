@@ -1,8 +1,8 @@
-# CSI-Assignment1
+# CSI-Assignment2
 
-# 💼 Celebal Technologies Internship – Level A SQL Assignment
+# 💼 Celebal Technologies Internship – Level B SQL Assignment
 
-This repository contains the complete solution to the **Level A SQL Task**, assigned as part of the **Week 1 deliverables** during the **Summer Internship Program at Celebal Technologies**.This repository contains a full SQL-based solution to the **Level B SQL Task**, implemented using the **AdventureWorks2022** sample database provided by Microsoft SQL Server.
+This repository contains the complete solution to the **Level B SQL Task**, assigned as part of the **Week 2 deliverables** during the **Summer Internship Program at Celebal Technologies**.
 
 ---
 
