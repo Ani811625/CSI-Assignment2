@@ -59,6 +59,7 @@ GO
 ---
 
 ## 📁 Repository Structure
+```plaintext
 📂 AdventureWorks2022/
 │      ├── 📂 Functions/
 │      │        ├── FormatDate_MMDDYYYY.sql
