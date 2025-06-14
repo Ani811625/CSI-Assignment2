@@ -73,6 +73,9 @@ This repository contains the complete solution to the **Level B SQL Task**, assi
 │               ├── MyProducts.sql
 │               ├── vwCustomerOrders.sql
 │               └── vwCustomerOrders_Yesterday.sql
+│
+├── AdventureWorks_LevelB_Task.sql
+│
 ├── Level B Task.pdf
 │
 └── README.md
