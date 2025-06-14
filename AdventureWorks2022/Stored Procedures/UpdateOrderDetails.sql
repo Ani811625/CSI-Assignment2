@@ -11,7 +11,7 @@ BEGIN
     DECLARE @OldQuantity INT, @NewQuantity INT, @QuantityDiff INT;
     DECLARE @OldUnitPrice MONEY, @OldDiscount FLOAT;
 
-    -- Get existing values
+    
     SELECT 
         @OldQuantity = Quantity,
         @OldUnitPrice = UnitPrice,
@@ -25,12 +25,12 @@ BEGIN
         RETURN;
     END
 
-    -- Retain original values if new ones are NULL
+    
     SET @NewQuantity = ISNULL(@Quantity, @OldQuantity);
     SET @UnitPrice = ISNULL(@UnitPrice, @OldUnitPrice);
     SET @Discount = ISNULL(@Discount, @OldDiscount);
 
-    -- Update Order Details
+    
     UPDATE [Order Details]
     SET 
         UnitPrice = @UnitPrice,
@@ -38,7 +38,7 @@ BEGIN
         Discount = @Discount
     WHERE OrderID = @OrderID AND ProductID = @ProductID;
 
-    -- Update stock (add back old quantity, then subtract new quantity)
+    
     SET @QuantityDiff = @NewQuantity - @OldQuantity;
 
     UPDATE Products
