@@ -31,7 +31,7 @@ This repository contains the complete solution to the **Level B SQL Task**, assi
 - **SQL Server Management Studio (SSMS)**
 - **AdventureWorks2022 OLTP Sample Database**
 
-> ✔️ All queries are designed and tested using the default schema structure of the **AdventureWorks2022** database available from Microsoft's official GitHub repository.
+> ✔️ All queries are designed and tested using the default schema structure of the **AdventureWorks2022** database available from Microsoft's official GitHub repository along with Custom Sample Database Schema.
 
 ---
 
